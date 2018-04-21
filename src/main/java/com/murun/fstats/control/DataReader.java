@@ -14,50 +14,62 @@ import java.util.*;
 @Component
 public class DataReader {
 
-    public Set<Host> readFile(String resourceName) throws IOException, FileNotFoundException, java.net.URISyntaxException {
+    public Set<Host> readFile(String resourceName) throws IOException {
 
         File file = new File(getClass().getClassLoader().getResource(resourceName).getFile());
 
         Set<Host> lines = new TreeSet<>(Comparator.comparing(Host::getAverage).reversed().thenComparing(Host::getHostName));
+        int lineCount =0;
         try ( Scanner scanner = new Scanner(file) ){
             while ( scanner.hasNext()){
-                lines.add( processLine(scanner.nextLine()) );
+                lineCount++;
+                try {
+                    lines.add( processLine(scanner.nextLine()) );
+                } catch (InputMismatchException e) {
+                    System.out.println("Line# " + lineCount + "skipped. Reason: " + e.getMessage());
+                }
             }
         }
 
         return lines;
     }
 
-    public Host processLine( String line ){
+    protected Host processLine( String line ) throws InputMismatchException{
 
         System.out.println(line);
-        Scanner scanner = new Scanner(line);
-        scanner.useDelimiter("[,\\|]");
-        String hostName = scanner.next();
-        String notUsed1 = scanner.next();
-        String notUsed2 = scanner.next();
-        String notUsed3 = scanner.next();
+        try (  Scanner scanner = new Scanner(line) ) {
+            scanner.useDelimiter("[,\\|]");
 
+            String hostName = scanner.next();
+            long notUsed1 = scanner.nextLong();
+            long notUsed2 = scanner.nextLong();
+            int notUsed3 = scanner.nextInt();
 
-        double count =0;
-        double max = Double.MIN_VALUE;
-        double min = Double.MAX_VALUE;
-        double sum = 0;
-        while (scanner.hasNext()) {
-
-            try {
-                double value = Double.parseDouble(scanner.next());
-                System.out.println(value);
-                if ( value > max ) max = value;
-                if ( value < min ) min = value;
-                sum += value;
-                count++;
-            } catch (NumberFormatException e) {
-                // nothing needs to be done
+            if ( line.indexOf("|") == -1 ){
+                throw new InputMismatchException("Missing | delimeter.");
             }
-        }
 
-        return new Host( hostName, min, max, sum / count );
+            double count = 0;
+            double max = Double.MIN_VALUE;
+            double min = Double.MAX_VALUE;
+            double sum = 0;
+            while (scanner.hasNext()) {
+
+                try {
+                    double value = Double.parseDouble(scanner.next());
+                    //System.out.println(value);
+                    if (value > max) max = value;
+                    if (value < min) min = value;
+                    sum += value;
+                    count++;
+                } catch (NumberFormatException e) {
+                    // be tolerant. ignore non double, continue processing
+                }
+            }
+
+
+            return new Host(hostName, min, max, sum / count);
+        }
     }
 }
 

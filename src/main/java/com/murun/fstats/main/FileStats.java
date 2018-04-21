@@ -24,7 +24,7 @@ public class FileStats {
         Set<Host> hostStats =null;
         try {
             hostStats = reader.readFile("CodingDemoData.txt");
-        } catch (IOException | URISyntaxException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
