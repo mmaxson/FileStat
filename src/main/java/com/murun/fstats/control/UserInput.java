@@ -34,9 +34,9 @@ public class UserInput {
     }
 
 
-    private File getFileForPathStr(String pathStr ){
+    private File getFileForPathStr(String pathStr){
         File f = new File(pathStr);
-        if (f.exists() && !f.isDirectory()) {
+        if (f.exists() && f.isFile()) {
             return f;
         }
         else{
