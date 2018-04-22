@@ -4,9 +4,11 @@
 * */
 package com.murun.fstats.control;
 
+import com.murun.fstats.main.ApplicationConfiguration;
 import com.murun.fstats.model.Host;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
@@ -14,19 +16,27 @@ import java.util.*;
 @Component
 public class Processor {
 
+
+    @Resource
+    ApplicationConfiguration configuration;
+
     public Set<Host> processFile(File dataFile) throws IOException {
 
         System.out.println("Processing " + dataFile.getPath());
         Set<Host> hosts = new TreeSet<>(Comparator.comparing(Host::getAverage).reversed().thenComparing(Host::getHostName));
-        long inputLineCount =0;
+        short inputLineCount = 0;
         try ( Scanner scanner = new Scanner(dataFile) ){
-            while ( scanner.hasNext()){
+            while ( scanner.hasNext() && inputLineCount < configuration.maxDataLines() ){
                 inputLineCount++;
                 try {
                     hosts.add( processLine(scanner.nextLine()) );
                 } catch (NoSuchElementException e) {
                     System.out.println("Line# " + inputLineCount + " skipped. Unexpected data." );
                 }
+            }
+
+            if ( inputLineCount == configuration.maxDataLines() && scanner.hasNext()){
+                throw new IOException("Data size exceeds capacity of this application.");
             }
         }
 

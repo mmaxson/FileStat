@@ -39,7 +39,7 @@ public class MainController {
             }
 
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Exception: " + e.getMessage());
         }
 
     }
