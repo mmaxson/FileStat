@@ -6,26 +6,21 @@ import com.murun.fstats.model.Host;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
 import java.io.File;
 import java.io.IOException;
-import java.net.URL;
 import java.util.InputMismatchException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
-//import static org.junit.Assert.;
 
 
-@ActiveProfiles("test")
 @RunWith(SpringRunner.class)
-@SpringBootTest
 @ContextConfiguration(classes = {ApplicationConfiguration.class})
 
 
@@ -34,10 +29,6 @@ public class ProcessorTest {
 
     @Resource
     Processor processor;
-
-
-
-
 
     @Test
     public void lineCalculationsShouldBeCorrect()  {

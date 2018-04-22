@@ -1,4 +1,6 @@
 com/murun/fstats/model/Host.class
-com/murun/fstats/main/ApplicationConfiguration.class
 com/murun/fstats/main/FileStats.class
-com/murun/fstats/control/DataReader.class
+com/murun/fstats/main/MainController.class
+com/murun/fstats/control/UserInput.class
+com/murun/fstats/main/ApplicationConfiguration.class
+com/murun/fstats/control/Processor.class

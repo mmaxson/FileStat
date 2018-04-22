@@ -40,7 +40,7 @@ public class Processor {
             scanner.useDelimiter("[,\\|]");
 
             String hostName = scanner.next();
-            // following three lines are used to check the file format. will throw NoSuchElementException or InputMismatchException
+            // following three lines are used to check the file format. Will throw NoSuchElementException or InputMismatchException
             // if type mismatches.
             long notUsed1 = scanner.nextLong();
             long notUsed2 = scanner.nextLong();
@@ -58,7 +58,7 @@ public class Processor {
 
                 try {
                     double value = Double.parseDouble(scanner.next());
-                   // System.out.println(value);
+
                     if (value > max) max = value;
                     if (value < min) min = value;
                     sum += value;

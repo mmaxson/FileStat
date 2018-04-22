@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3f0b4b-18a6-47d4-b472-6073cb21f99b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/CodingDemoData2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murun/fstats/control/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/murun/fstats/main/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/murun/fstats/control/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/murun/fstats/control/Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/murun/fstats/main/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/murun/fstats/main/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/murun/fstats/control/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/murun/fstats/control/Processor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/murun/fstats/main/FileStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/murun/fstats/main/FileStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/murun/fstats/model/Host.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/murun/fstats/model/Host.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/CodingDemoData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CodingDemoData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/murun/fstats/control/DataReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/murun/fstats/control/ProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CodingDemoData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CodingDemoData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/murun/fstats/control/DataReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/murun/fstats/main/ApplicationConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/murun/fstats/main/ApplicationConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/murun/fstats/control/ProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/murun/fstats/control/ProcessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/murun/fstats/main/FileStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/murun/fstats/main/FileStats.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/murun/fstats/model/Host.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/murun/fstats/model/Host.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/file-stats-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/file-stats-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/file-stats-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/file-stats-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/file-stats-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/file-stats-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
@@ -32,29 +26,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FileStats$FileStats.ic" NAME="FileStats Coverage Results" MODIFIED="1524362385711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/main/ApplicationConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#0#215#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CodingDemoData.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/CodingDemoData.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scanner.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
+      <file leaf-file-name="ApplicationConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/main/ApplicationConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="1484" selection-start-line="1484" selection-end-line="1484" />
+            <state relative-caret-position="135">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -76,8 +52,8 @@
       <file leaf-file-name="FileStats.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/main/FileStats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="38" column="121" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="38" selection-end-column="121" />
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#1270#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -86,11 +62,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CodingDemoData2.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/CodingDemoData2.txt">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/main/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-end-line="18" />
+            <state relative-caret-position="300">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#1201#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/control/UserInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#611#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratch.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -98,8 +100,8 @@
       <file leaf-file-name="Processor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/control/Processor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="-135">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="e#0#2203#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -111,8 +113,8 @@
       <file leaf-file-name="ProcessorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/murun/fstats/control/ProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="117" column="48" lean-forward="true" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
+            <state relative-caret-position="222">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,6 +149,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>UserInput</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -155,17 +162,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/murun/main/FileReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/murun/fstats/control/FileReader.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/murun/fstats/control/DataReaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/murun/fstats/model/Host.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/murun/fstats/main/ApplicationConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/murun/fstats/control/DataReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/murun/fstats/control/Processor.java" />
         <option value="$PROJECT_DIR$/src/main/resources/CodingDemoData.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/murun/fstats/main/FileStats.java" />
         <option value="$PROJECT_DIR$/src/test/resources/TestData.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/TestData2.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/murun/fstats/main/ApplicationConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/murun/fstats/main/FileStats.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/murun/fstats/control/UserInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/murun/fstats/control/Processor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/murun/fstats/main/MainController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/murun/fstats/control/ProcessorTest.java" />
       </list>
     </option>
@@ -286,6 +295,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FileStats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="FileStats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -300,6 +318,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -329,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProcessorTest.processTestFileWithLineSkip">
+  <component name="RunManager" selected="Spring Boot.FileStats">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -519,9 +538,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProcessorTest" />
         <item itemvalue="JUnit.ProcessorTest.processTestFileWithLineSkip" />
         <item itemvalue="JUnit.ProcessorTest.processTestFile" />
-        <item itemvalue="JUnit.ProcessorTest" />
         <item itemvalue="JUnit.ProcessorTest.pipeSeperatorRequired" />
         <item itemvalue="JUnit.ProcessorTest.missingHostNameThrowsException" />
       </list>
@@ -538,7 +557,7 @@
       <option name="presentableId" value="Default" />
       <updated>1524183676953</updated>
       <workItem from="1524183679044" duration="12723000" />
-      <workItem from="1524267450243" duration="33003000" />
+      <workItem from="1524267450243" duration="43499000" />
     </task>
     <task id="LOCAL-00001" summary="unit tests">
       <created>1524299460720</created>
@@ -547,13 +566,17 @@
       <option name="project" value="LOCAL" />
       <updated>1524299460720</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="more unit tests">
+      <created>1524357363579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524357363579</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProcessorTest_processTestFile - 2018.04.21 at 16h 47m 41s.xml">
-      <configuration name="ProcessorTest.processTestFile" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProcessorTest_processTestFile - 2018.04.21 at 17h 03m 07s.xml">
       <configuration name="ProcessorTest.processTestFile" configurationId="JUnit" />
     </history-entry>
@@ -581,42 +604,47 @@
     <history-entry file="ProcessorTest_processTestFileWithLineSkip - 2018.04.21 at 17h 34m 44s.xml">
       <configuration name="ProcessorTest.processTestFileWithLineSkip" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProcessorTest - 2018.04.21 at 22h 37m 28s.xml">
+      <configuration name="ProcessorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45726000" />
+    <option name="totallyTimeSpent" value="56222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="201" y="56" width="1350" height="940" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40806642" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32977462" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32977462" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32977462" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3295107" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.33451957" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24006116" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24006116" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32977462" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40806642" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -658,7 +686,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="unit tests" />
+    <MESSAGE value="more unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="more unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -677,12 +706,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/murun/fstats/control/ProcessorTest.java</url>
-          <line>89</line>
+          <line>81</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/murun/fstats/control/UserInput.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/murun/fstats/control/UserInput.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -730,13 +771,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/control/FileStats.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -814,16 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/main/ApplicationConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/CodingDemoData2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -845,32 +869,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/control/Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#2203#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/main/FileStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="38" column="121" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="38" selection-end-column="121" />
-          <folding>
-            <element signature="e#0#1270#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/TestData2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/main/ApplicationConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -881,10 +890,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/control/UserInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#611#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/main/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#1201#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/main/FileStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#1270#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/murun/fstats/control/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#2203#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/murun/fstats/control/ProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="117" column="48" lean-forward="true" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
+        <state relative-caret-position="222">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
