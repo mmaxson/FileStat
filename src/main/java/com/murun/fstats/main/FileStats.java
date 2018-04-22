@@ -1,39 +1,42 @@
+/*
+ * mark urun 4/21/2018
+ *
+ * */
 package com.murun.fstats.main;
 
-import com.murun.fstats.control.DataReader;
+import com.murun.fstats.control.Processor;
 import com.murun.fstats.model.Host;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import java.io.FileNotFoundException;
+import java.io.File;
 import java.io.IOException;
-import java.net.URISyntaxException;
-import java.util.Comparator;
-import java.util.IntSummaryStatistics;
-import java.util.List;
 import java.util.Set;
 
 @SpringBootApplication
 public class FileStats {
 
+
+
     public static void main(String[] args) {
 
         ApplicationContext ctx = SpringApplication.run(FileStats.class, args);
-        DataReader reader = ctx.getBean(DataReader.class);
-        Set<Host> hostStats =null;
+        Processor reader = ctx.getBean(Processor.class);
+        Set<Host> hostStats = null;
         try {
-            hostStats = reader.readFile("CodingDemoData.txt");
+            File file = new File(Processor.class.getClassLoader().getResource("CodingDemoData.txt").getFile());
+            hostStats = reader.processFile(file);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-    //    hostStats.sort(Comparator.comparing(Host::getAverage).reversed());
+        System.out.println("======================");
+        System.out.println("Results:");
+        System.out.println("======================");
+
         hostStats.forEach(h ->System.out.println(h.getHostName() + ": "
              +  "Average: " +  String.format("%1$.1f", h.getAverage()) + " Max: " + h.getMax() + " Min: " + h.getMin()));
-
-//<Host>: Average: <average value> Max: <maxium value> Min: <minimum value>
-
 
     }
 }
