@@ -18,3 +18,7 @@
   
   
   
+#Coding Documentation:
+    Spring Boot standalone application.  
+    Bootstrap is FileStats
+    Entry point is MainController.run()
