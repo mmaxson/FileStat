@@ -5,6 +5,7 @@
 package com.murun.fstats.control;
 
 import com.murun.fstats.main.ApplicationConfiguration;
+import com.murun.fstats.main.ConfigProperties;
 import com.murun.fstats.model.Host;
 import org.springframework.stereotype.Component;
 
@@ -18,7 +19,7 @@ public class Processor {
 
 
     @Resource
-    ApplicationConfiguration configuration;
+    ConfigProperties configProperties;
 
     public Set<Host> processFile(File dataFile) throws IOException {
 
@@ -26,7 +27,7 @@ public class Processor {
         Set<Host> hosts = new TreeSet<>(Comparator.comparing(Host::getAverage).reversed().thenComparing(Host::getHostName));
         short inputLineCount = 0;
         try ( Scanner scanner = new Scanner(dataFile) ){
-            while ( scanner.hasNext() && inputLineCount < configuration.maxDataLines() ){
+            while ( scanner.hasNext() && inputLineCount < configProperties.getMaxDataLines() ){
                 inputLineCount++;
                 try {
                     hosts.add( processLine(scanner.nextLine()) );
@@ -35,7 +36,7 @@ public class Processor {
                 }
             }
 
-            if ( inputLineCount == configuration.maxDataLines() && scanner.hasNext()){
+            if ( inputLineCount == configProperties.getMaxDataLines() && scanner.hasNext()){
                 throw new IOException("Data size exceeds capacity of this application.");
             }
         }
