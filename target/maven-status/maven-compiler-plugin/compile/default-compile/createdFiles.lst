@@ -1,3 +1,4 @@
+com/murun/fstats/main/ConfigProperties.class
 com/murun/fstats/model/Host.class
 com/murun/fstats/main/FileStats.class
 com/murun/fstats/main/MainController.class
